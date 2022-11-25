@@ -28,6 +28,7 @@ class Calculate:
 
     def calc_score(self):
         han = self.a
+        han2 = han * 2
         fu = self.b
         # チートイツ
         if fu != 25:
