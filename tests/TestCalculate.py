@@ -32,3 +32,18 @@ class TestCalculate(unittest.TestCase):
         calc = Calculate(4, 30)
         ans = calc.calc_score()
         self.assertEqual(7700, ans)
+
+    def test_score2(self):
+        calc = Calculate(5, 45)
+        ans = calc.calc_score()
+        self.assertEqual(8000, ans)
+
+    def test_score3(self):
+        calc = Calculate(13, 30)
+        ans = calc.calc_score()
+        self.assertEqual(32000, ans)
+
+    def test_score4(self):
+        calc = Calculate(4, 20)
+        ans = calc.calc_score()
+        self.assertEqual(5200, ans)

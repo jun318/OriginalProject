@@ -36,12 +36,6 @@ class Calculate:
         # 点数分岐
         if han >= 13:
             return 32000
-        elif han >= 11:
-            return 24000
-        elif han >= 8:
-            return 16000
-        elif han >= 6:
-            return 12000
         elif han == 5:
             return 8000
         elif han == 4:
