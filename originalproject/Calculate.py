@@ -50,3 +50,4 @@ class Calculate:
                 return 7700
             elif fu == 20:
                 return 5200
+
