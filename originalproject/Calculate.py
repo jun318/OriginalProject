@@ -1,5 +1,6 @@
 import numpy as np
 
+
 class Calculate:
     def __init__(self, a, b):
         self.a = a
